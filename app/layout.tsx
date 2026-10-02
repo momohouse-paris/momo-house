@@ -24,8 +24,8 @@ const beVietnam = Be_Vietnam_Pro({
 
 export const metadata: Metadata = {
   title: {
-    default: "Momo House — Streetfood Himalayenne à Paris",
-    template: "%s · Momo House Paris",
+    default: "Momo House - Montmartre | Poissonnière",
+    template: "%s · Momo House",
   },
   description:
     "Momos faits main, thukpa fumant et achar maison — Maison Montmartre (2e) & Maison Poissonnière (10e).",

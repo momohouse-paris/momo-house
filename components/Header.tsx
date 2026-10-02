@@ -29,7 +29,7 @@ function HouseSwitcher({
   return (
     <div
       className={`relative flex items-center font-label font-bold uppercase tracking-wide ${
-        compact ? "gap-1.5 text-[10px]" : "gap-2 text-xs sm:text-[11px]"
+        compact ? "gap-2 text-sm" : "gap-3 text-base md:text-lg"
       }`}
     >
       <Link
