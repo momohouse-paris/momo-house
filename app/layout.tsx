@@ -22,13 +22,24 @@ const beVietnam = Be_Vietnam_Pro({
   display: "swap",
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://momohouse.fr";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Momo House - Montmartre | Poissonnière",
     template: "%s · Momo House",
   },
   description:
     "Momos faits main, thukpa fumant et achar maison — Maison Montmartre (2e) & Maison Poissonnière (10e).",
+  openGraph: {
+    locale: "fr_FR",
+    type: "website",
+    siteName: "Momo House",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({

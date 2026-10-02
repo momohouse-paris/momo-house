@@ -10,7 +10,7 @@ const quickNav = [
   { href: "/", label: "Accueil" },
   { href: "/carte", label: "La Carte" },
   { href: "/#maisons", label: "Plan d'accès & Itinéraires" },
-  { href: "/#histoire", label: "Secrets de fabrication des Momos" },
+  { href: "/#histoire", label: "Notre histoire" },
   { href: "/reservation", label: "Réservation en ligne" },
 ];
 

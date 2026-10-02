@@ -18,7 +18,7 @@ export function DualPortalHero() {
   return (
     <section className="relative bg-bistro">
       <h1 className="sr-only">
-        Momo House — Authentic Paris et Himalayan Gateway
+        Momo House — Paris authentique et porte de l&apos;Himalaya
       </h1>
 
       {/* Mobile chooser label */}
